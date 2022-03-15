@@ -2,3 +2,75 @@
 /*Matthew Martinez */
 
 
+header{
+    text-align: center;
+    border: solid 4px #886644;
+    box-shadow:  3px 3px 2px black inset;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 5px;
+    margin-bottom: 3px;
+}
+
+
+body{
+margin-left: 50px;
+margin-right: 50px;
+max-width: 100% ;
+margin-top: 3px;
+margin-bottom: 3px;
+
+}
+
+main{
+    Border: solid 4px #886644;
+    box-shadow: 2px 2px 2px  black inset;
+  /*  margin-left: 10px;
+    margin-right: 10px; */
+    padding-left:2rem;
+    padding-right: 2rem;
+
+margin-top: 3px;
+margin-bottom: 3px;
+}
+
+aside{
+    Border: solid 4px #886644;
+    box-shadow: 2px 2px 2px  black inset;
+    
+margin-top: 3px;
+margin-bottom: 3px;
+}
+
+
+
+nav{
+    Border: solid 4px #886644;
+    box-shadow: 2px 2px 2px  black inset;
+
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+footer{
+    
+margin-top: 3px;
+margin-bottom: 3px;
+    Border: solid 4px #886644;
+    box-shadow: 2px 2px 2px  black inset;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+
+
+/*
+
+1.  Their margins and padding should be appropriately set like the examples you were given.
+3.  They should all have an inset drop shadow effect, like shown.
+
+In the index.html file:
+5.  Add appropriate tags for the cryptogram to the figure in the area you are allowed to edit below line 53.
+6.  Add the appropriate figure caption.
+CPR with the message "Basic structure complete".*/ 
