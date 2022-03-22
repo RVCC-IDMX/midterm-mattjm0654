@@ -103,13 +103,16 @@ aside{
 
 
 h2{
-    text-decoration-line: underline;
+    
+    text-decoration: underline;
 
  }
 
- #lang is, fr, it{
+ :lang( fr, it, is) { 
 
     font-style: italic ;
+
+
 }
 
 .character{
