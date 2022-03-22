@@ -6,8 +6,13 @@ body {
 
 
 header{
-
-    background: url(cave.jpg);
+    color: white;
+    font-size: large;
+    font-family: Georgia;
+    text-shadow: 10px 8px 8px black;
+    background:url(background/cave.jpg);
+    background-size: 100%;
+    background-position: right;
     text-align: center;
     border: solid 3px #886644;
     box-shadow: 15px 15px 10px  black inset;
