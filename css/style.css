@@ -1,15 +1,16 @@
 /* Journey to the Center of the Earth Practicum */
 /*Matthew Martinez */
 body {
-
-
     background-image: linear-gradient(#765729, black);
 }
 
+
 header{
+
+    background: url(cave.jpg);
     text-align: center;
     border: solid 3px #886644;
-    box-shadow: 8px 8px 15px  black inset;
+    box-shadow: 15px 15px 10px  black inset;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     padding-left: 5px;
@@ -19,16 +20,16 @@ header{
     margin-bottom: 3px;
     margin-left: 6rem;
     margin-right:6rem;
-    background-color: rgba(255, 255, 255, 0.75);
+
   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
 }
 
+
+
 nav{
-    Border: solid 3px #886644;
     
+    border: solid 3px #886644;
     box-shadow: 8px 8px 15px  black inset;
     padding-right: 10px;
     margin-top: 3px;
@@ -36,28 +37,33 @@ nav{
     margin-left: 6rem;
     margin-right:6rem;
     background-color: rgba(255, 255, 255, 0.75);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/*
-body{
-margin-left: 50px;
-margin-right: 50px;
-max-width: 100% ;
-margin-top: 3px;
-margin-bottom: 3px;
-padding-left:2rem;
-padding-right: 2rem;
-background-image:-o-linear-gradient(#765729, black);
-
+    text-align: center;
+  
 
 }
-*/
 
 
+ul li {
+
+    display: inline;
+    flex-direction:column;
+    border-right: black 2px solid ;
+    
+   
+} 
+
+
+
+a:link{
+    color:black;
+    text-decoration: none;
+
+}
+a:hover {
+    color:#A52A2A;
+    text-decoration: #A52A2A underline;
+
+}
 
 
 
@@ -77,13 +83,14 @@ main{
     align-items: left;
 }
 
-/*
-img {
+.main {
+
     float: left;
-    margin-right:1em;
+}
+main {
 
-
-} */
+    float: left;
+}
 
 aside {
     Border: solid 3px #886644;
