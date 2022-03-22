@@ -18,13 +18,14 @@ header{
     box-shadow: 15px 15px 10px  black inset;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    padding-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top:10px;
     padding-bottom:10px;
     margin-top:2px;
     margin-bottom: 3px;
-    margin-left: 6rem;
-    margin-right:6rem;
+    margin-left: 1rem;
+    margin-right:1rem;
 
   
 
@@ -36,11 +37,13 @@ nav{
     
     border: solid 3px #886644;
     box-shadow: 8px 8px 15px  black inset;
-    padding-right: 10px;
     margin-top: 3px;
     margin-bottom: 3px;
-    margin-left: 6rem;
-    margin-right:6rem;
+    margin-left: 1rem;
+    margin-right:1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+
     background-color: rgba(255, 255, 255, 0.75);
     text-align: center;
   
@@ -79,37 +82,63 @@ a:hover {
 
 
 main{
+
+    text-align: left;
     border: solid 3px #886644;
     box-shadow: 8px 8px 15px  black inset;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-top: 10px;
     margin-top: 3px;
     margin-bottom: 3px;
-    margin-left: 6rem;
-    margin-right:6rem;
+    margin-left: 1rem;
+    margin-right:1rem;
+
     background-color: rgba(255, 255, 255, 0.75);
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
+   
+    
 
+}
+
+#cover {   
+
+    display: inline;
+    flex-direction: grid;
+    align-items: left;
+    max-width: 200px;
+
+    float: left;
+
+    
+    padding-right:1em;
+    padding-bottom: 1em;
+    
 }
 
 p::first-line{
     font-size: x-large;
 }
 
+#cryptogram img {
 
- .cover img {
-
-    float: left;
+    display:inline;
+    flex-direction: grid;
+    align-items: center;
+    max-width: 100%;
+    float: center;
+  
 }
 
-.cryptogram{
 
-    float: right;
+figcaption {
+    
+    text-align: center;
 }
+
+
+
 
 
 aside {
@@ -119,8 +148,8 @@ aside {
     padding-right: 2rem;
     margin-top: 3px;
     margin-bottom: 3px;
-    margin-left: 6rem;
-    margin-right:6rem;
+    margin-left: 1rem;
+    margin-right:1rem;
     background-color: rgba(255, 255, 255, 0.75);
 
     
@@ -128,32 +157,25 @@ aside {
 
 
 
-
 h2{
-    
     
     border-bottom: 1px solid black;
 
  }
 
+
+/* language and character name styling*/ 
+
  :lang( fr, it, is) { 
 
     font-style: italic ;
 
-
 }
-
 .character{
  font-weight: bold;
 }
 
-@media  and (min-width: 60em) {
-    figure { 
-        display:grid;
-        grid-template-columns
 
-    }
-}
 
 
 
@@ -164,17 +186,31 @@ footer{
     box-shadow: 8px 8px 15px  black inset;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    padding-left:2rem;
-    padding-right: 2rem;
+    padding: left 10px;
+    padding-right: 10px;
     margin-top: 3px;
     margin-bottom: 3px;
-    margin-left: 6rem;
-    margin-right:6rem;
+    margin-left: 1rem;
+    margin-right:1rem;
     background-color: rgba(255, 255, 255, 0.75);
 }
-
-
-
 /*
+@screen and (min-width: 786px ) {
 
-*/ 
+    .submission {
+        display:grid;
+        grid-template-columns:1fr;
+
+    }
+    .opinion {
+
+        display:grid
+        grid-template-columns:1fr;
+    }
+    .signature{
+
+        display:grid;
+        grid-template-columns:1fr;
+    }
+
+} */
