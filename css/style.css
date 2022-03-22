@@ -1,0 +1,314 @@
+/* Journey to the Center of the Earth Practicum */
+/*Matthew Martinez */
+body {
+    background-image: linear-gradient(#765729, black);
+}
+
+
+header{
+    color: white;
+    font-size: large;
+    font-family: Georgia;
+    text-shadow: 10px 8px 8px black;
+    background:url(background/cave.jpg);
+    background-size: 100%;
+    background-position: right;
+    text-align: center;
+    border: solid 3px #886644;
+    box-shadow: 15px 15px 10px  black inset;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:2px;
+    margin-bottom: 3px;
+    margin-left: 1rem;
+    margin-right:1rem;
+
+  
+
+}
+
+
+
+nav{
+    
+    border: solid 3px #886644;
+    box-shadow: 8px 8px 15px  black inset;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 1rem;
+    margin-right:1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    background-color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+  
+
+}
+
+
+ul li {
+
+    display: inline;
+    flex-direction:column;
+    border-right: black 2px solid ;
+    border-left: black 2px solid;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+   
+} 
+
+
+
+
+
+a:link{
+    color:black;
+    text-decoration: none;
+
+}
+a:hover {
+    color:#A52A2A;
+    text-decoration: #A52A2A underline;
+
+}
+
+
+
+main{
+
+    text-align: left;
+    border: solid 3px #886644;
+    box-shadow: 8px 8px 15px  black inset;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 1rem;
+    margin-right:1rem;
+
+    background-color: rgba(255, 255, 255, 0.75);
+
+
+   
+    
+
+}
+
+#cover {   
+
+    display: inline;
+    flex-direction: grid;
+    align-items: left;
+    max-width: 200px;
+
+    float: left;
+
+    
+    padding-right:1em;
+    padding-bottom: 1em;
+    
+}
+
+p::first-line{
+    font-size: x-large;
+}
+
+
+
+
+
+#cryptogram img {
+
+    display:inline;
+    flex-direction: grid;
+    align-items: center;
+    max-width: 100%;
+    float: center;
+  
+}
+
+
+figcaption {
+    
+    text-align: center;
+}
+
+
+
+
+
+aside {
+    border: solid 3px #886644;
+    box-shadow: 8px 8px 15px  black inset;
+    padding-left:2rem;
+    padding-right: 2rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 1rem;
+    margin-right:1rem;
+    background-color: rgba(255, 255, 255, 0.75);
+
+    
+}
+
+.submission {
+
+    background-color:rgba(255, 255, 255, 0.356) ;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.opinion {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+
+}
+
+.signature {
+
+    text-align: right;
+}
+
+
+h2{
+    
+    border-bottom: 1px solid black;
+
+ }
+
+
+/* language and character name styling*/ 
+
+ :lang( fr, it, is) { 
+
+    font-style: italic ;
+
+}
+
+.character{
+ font-weight: bold;
+
+}
+
+
+
+
+
+
+
+footer{
+
+   
+    text-align: center;
+    border: solid 3px #886644;
+    box-shadow: 8px 8px 15px  black inset;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 1rem;
+    margin-right:1rem;
+    font-size: x-small;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+@media screen and (min-width: 768px ) {
+
+    #cover {
+        display:flex;
+        flex-direction: grid;
+        align-items: left;
+        max-width: 100%;
+        float: left;
+      
+    }
+
+    #cryptogram{
+
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+            float: center;
+          
+        }
+
+    div{
+            
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+       
+        }
+
+    h1 {
+
+        size-adjust: auto;
+    }
+    
+    aside {
+
+        display:inline-flex;
+        flex-direction:row;
+        align-items: left;
+        margin-top: 5px;
+        padding-top: 5px;
+    } 
+    h2 {
+        position:static;
+        
+    }
+
+    .submission {
+        
+        background-color:rgba(255, 255, 255, 0.356) ;
+        margin-top: px;
+        margin-bottom: 10px;
+       
+        margin-right: 5px;
+        margin-left: 5px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        
+    }
+    
+    .opinion {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        
+        margin-bottom: 2px;
+        
+    
+    }
+    
+    .signature {
+    
+        text-align: right;
+    }
+    
+
+
+
+    }
+
