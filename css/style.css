@@ -102,6 +102,9 @@ main{
 
 }
 
+/*image floats*/ 
+
+
 #cover {   
 
     display: inline;
@@ -142,7 +145,7 @@ figcaption {
 }
 
 
-
+/*book reviews*/
 
 
 aside {
@@ -191,6 +194,9 @@ h2{
  }
 
 
+
+
+
 /* language and character name styling*/ 
 
  :lang( fr, it, is) { 
@@ -203,10 +209,6 @@ h2{
  font-weight: bold;
 
 }
-
-
-
-
 
 
 
@@ -229,6 +231,9 @@ footer{
     font-size: x-small;
     background-color: rgba(255, 255, 255, 0.75);
 }
+
+/*ipad mini media query*/
+
 
 @media screen and (min-width: 768px ) {
 
@@ -311,8 +316,11 @@ footer{
 
 
 
-    }
-/*
+}
+
+
+/*ipad pro media query*/
+
     @media screen and (min-width: 1024px ) {
 
 * 
@@ -340,6 +348,6 @@ footer{
        text-align: center;
 
     
-    };
+    }
 
-    } */
+    } 
