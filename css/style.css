@@ -254,8 +254,8 @@ footer{
     div{
             
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        align-items: left;
         max-width: 100%;
        
         }
@@ -267,9 +267,9 @@ footer{
     
     aside {
 
-        display:inline-flex;
-        flex-direction:row;
-        align-items: left;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
         margin-top: 5px;
         padding-top: 5px;
     } 
@@ -281,34 +281,65 @@ footer{
     .submission {
         
         background-color:rgba(255, 255, 255, 0.356) ;
-        margin-top: px;
-        margin-bottom: 10px;
-       
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
         margin-right: 5px;
         margin-left: 5px;
         padding-top: 20px;
         padding-bottom: 50px;
-        
+        display: flex ;
+        flex-direction: row;
+        align-items: center;
     }
     
     .opinion {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 5px;
+        margin-bottom: 5px;
         
-        margin-bottom: 2px;
-        
-    
     }
     
     .signature {
-    
-        text-align: right;
+        
+        text-align:end;
     }
     
 
 
 
     }
+/*
+    @media screen and (min-width: 1024px ) {
 
+* 
+
+
+    
+  
+    
+    aside {
+
+       float: right;
+       width: 25%;
+       display: flex;
+      flex-direction: column;
+        align-items: center;
+       
+    }
+
+
+    footer {
+
+       display:inline-flex;
+       flex-direction: row;
+       align-items: center;
+       text-align: center;
+
+    
+    };
+
+    } */
