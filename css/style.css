@@ -59,13 +59,13 @@ ul li {
     border-left: black 2px solid;
     padding-left: 5px;
     padding-right: 5px;
+
+
    
 } 
 
-.ul li:last-child{
 
-border-right: none;
-}
+
 
 
 a:link{
@@ -121,6 +121,10 @@ p::first-line{
     font-size: x-large;
 }
 
+
+
+
+
 #cryptogram img {
 
     display:inline;
@@ -155,6 +159,29 @@ aside {
     
 }
 
+.submission {
+
+    background-color:rgba(255, 255, 255, 0.356) ;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.opinion {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+
+}
+
+.signature {
+
+    text-align: right;
+}
 
 
 h2{
@@ -171,46 +198,117 @@ h2{
     font-style: italic ;
 
 }
+
 .character{
  font-weight: bold;
+
 }
+
+
 
 
 
 
 
 footer{
-    
+
+   
     text-align: center;
     border: solid 3px #886644;
     box-shadow: 8px 8px 15px  black inset;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    padding: left 10px;
-    padding-right: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 3px;
     margin-bottom: 3px;
     margin-left: 1rem;
     margin-right:1rem;
+    font-size: x-small;
     background-color: rgba(255, 255, 255, 0.75);
 }
-/*
-@screen and (min-width: 786px ) {
+
+@media screen and (min-width: 768px ) {
+
+    #cover {
+        display:flex;
+        flex-direction: grid;
+        align-items: left;
+        max-width: 100%;
+        float: left;
+      
+    }
+
+    #cryptogram{
+
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+            float: center;
+          
+        }
+
+    div{
+            
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+       
+        }
+
+    h1 {
+
+        size-adjust: auto;
+    }
+    
+    aside {
+
+        display:inline-flex;
+        flex-direction:row;
+        align-items: left;
+        margin-top: 5px;
+        padding-top: 5px;
+    } 
+    h2 {
+        position:static;
+        
+    }
 
     .submission {
-        display:grid;
-        grid-template-columns:1fr;
-
+        
+        background-color:rgba(255, 255, 255, 0.356) ;
+        margin-top: px;
+        margin-bottom: 10px;
+       
+        margin-right: 5px;
+        margin-left: 5px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        
     }
+    
     .opinion {
-
-        display:grid
-        grid-template-columns:1fr;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        
+        margin-bottom: 2px;
+        
+    
     }
-    .signature{
+    
+    .signature {
+    
+        text-align: right;
+    }
+    
 
-        display:grid;
-        grid-template-columns:1fr;
+
+
     }
 
-} */
