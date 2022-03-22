@@ -1,21 +1,30 @@
 /* Journey to the Center of the Earth Practicum */
 /*Matthew Martinez */
+
+
+
+
+/*set background color for whole page to gradient*/
+
+
 body {
     background-image: linear-gradient(#765729, black);
 }
 
 
+/*adding format to header*/ 
+
 header{
     color: white;
     font-size: large;
     font-family: Georgia;
-    text-shadow: 10px 8px 8px black;
+    text-shadow: 15px 15px 15px black;
     background:url(background/cave.jpg);
     background-size: 100%;
-    background-position: right;
+    background-position: center;
     text-align: center;
     border: solid 3px #886644;
-    box-shadow: 15px 15px 10px  black inset;
+    box-shadow: 20px 20px 20px  black inset;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     padding-left: 10px;
@@ -32,17 +41,19 @@ header{
 }
 
 
+/*nav section*/
+
 
 nav{
     
     border: solid 3px #886644;
-    box-shadow: 8px 8px 15px  black inset;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    box-shadow: 10px 10px 10px  black inset;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: 1rem;
     margin-right:1rem;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
 
     background-color: rgba(255, 255, 255, 0.75);
     text-align: center;
@@ -51,22 +62,7 @@ nav{
 }
 
 
-ul li {
-
-    display: inline;
-    flex-direction:column;
-    border-right: black 2px solid ;
-    border-left: black 2px solid;
-    padding-left: 5px;
-    padding-right: 5px;
-
-
-   
-} 
-
-
-
-
+/*link styling */ 
 
 a:link{
     color:black;
@@ -79,13 +75,41 @@ a:hover {
 
 }
 
+/*nav link list formatting */ 
+
+nav ul li {
+
+    display: inline;
+    flex-direction:column;
+    border-right:  3px double black;
+    border-left: 3px double black;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
 
 
-main{
+/*get rid of extra borders*/ 
+
+
+nav ul :nth-child(1) {
+    border-left: none;
+
+}
+
+nav ul :nth-child(4) {
+
+    border-right: none;
+}
+
+
+/*main section*/ 
+
+main {
 
     text-align: left;
     border: solid 3px #886644;
-    box-shadow: 8px 8px 15px  black inset;
+    box-shadow: 10px 10px 10px  black inset;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 10px;
@@ -93,40 +117,24 @@ main{
     margin-bottom: 3px;
     margin-left: 1rem;
     margin-right:1rem;
-
     background-color: rgba(255, 255, 255, 0.75);
-
-
-   
-    
 
 }
 
-/*image floats*/ 
+/*image floats and fig caption*/ 
 
 
-#cover {   
+#cover  {   
 
     display: inline;
     flex-direction: grid;
     align-items: left;
     max-width: 200px;
-
     float: left;
-
-    
     padding-right:1em;
     padding-bottom: 1em;
     
 }
-
-p::first-line{
-    font-size: x-large;
-}
-
-
-
-
 
 #cryptogram img {
 
@@ -145,12 +153,23 @@ figcaption {
 }
 
 
-/*book reviews*/
+
+/*first line of first paragraph only font size larger than rest*/
+
+
+main p:first-of-type::first-line {
+
+    font-size: 150%;
+}
+
+
+
+/*book reviews "aside" section*/
 
 
 aside {
     border: solid 3px #886644;
-    box-shadow: 8px 8px 15px  black inset;
+    box-shadow: 10px 10px 10px  black inset;
     padding-left:2rem;
     padding-right: 2rem;
     margin-top: 3px;
@@ -164,19 +183,14 @@ aside {
 
 .submission {
 
-    background-color:rgba(255, 255, 255, 0.356) ;
-    margin-top: 2px;
-    margin-bottom: 10px;
-    text-align: center;
+    background-color:rgba(255, 255, 255, 0.4) ;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
 }
 
 .opinion {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+
     text-align: center;
 
 }
@@ -184,12 +198,13 @@ aside {
 .signature {
 
     text-align: right;
+    font-style: italic;
 }
 
 
 h2{
-    
-    border-bottom: 1px solid black;
+     
+    border-bottom: 1px dashed black;
 
  }
 
@@ -217,7 +232,7 @@ footer{
    
     text-align: center;
     border: solid 3px #886644;
-    box-shadow: 8px 8px 15px  black inset;
+    box-shadow: 10px 10px 10px  black inset;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     padding-left: 4px;
@@ -228,7 +243,6 @@ footer{
     margin-bottom: 3px;
     margin-left: 1rem;
     margin-right:1rem;
-    font-size: x-small;
     background-color: rgba(255, 255, 255, 0.75);
 }
 
