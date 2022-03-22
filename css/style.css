@@ -4,12 +4,17 @@
 
 header{
     text-align: center;
-    border: solid 4px #886644;
-    box-shadow:  3px 3px 2px black inset;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border: solid 3px #886644;
+    box-shadow: 8px 8px 15px  black inset;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
     padding-left: 5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:2px;
     margin-bottom: 3px;
+    margin-left: 6rem;
+    margin-right:6rem;
     background-color: rgba(255, 255, 255, 0.75);
   
     display: flex;
@@ -18,16 +23,22 @@ header{
 }
 
 nav{
-    Border: solid 4px #886644;
-    box-shadow: 2px 2px 2px  black inset;
+    Border: solid 3px #886644;
+    
+    box-shadow: 8px 8px 15px  black inset;
     padding-right: 10px;
     margin-top: 3px;
     margin-bottom: 3px;
+    margin-left: 6rem;
+    margin-right:6rem;
     background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
-
+/*
 body{
 margin-left: 50px;
 margin-right: 50px;
@@ -38,30 +49,28 @@ padding-left:2rem;
 padding-right: 2rem;
 background-image:-o-linear-gradient(#765729, black);
 
-display: flex;
-flex-direction: column;
-align-items: center;
-}
 
+}
+*/
 
 
 
 main{
-    Border: solid 4px #886644;
-    box-shadow: 2px 2px 2px  black inset;
+    Border: solid 3px #886644;
+    box-shadow: 8px 8px 15px  black inset;
   /*  margin-left: 10px;
     margin-right: 10px; */
     padding-left:2rem;
     padding-right: 2rem;
     margin-top: 3px;
     margin-bottom: 3px;
-    margin-left: 1rem;
-    margin-right:1rem ;
+    margin-left: 6rem;
+    margin-right:6rem;
     background-color: rgba(255, 255, 255, 0.75);
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .main {
@@ -75,12 +84,14 @@ main{
 }
 
 aside{
-    Border: solid 4px #886644;
-    box-shadow: 2px 2px 2px  black inset;
+    Border: solid 3px #886644;
+    box-shadow: 8px 8px 15px  black inset;
     padding-left:2rem;
     padding-right: 2rem;
     margin-top: 3px;
     margin-bottom: 3px;
+    margin-left: 6rem;
+    margin-right:6rem;
     background-color: rgba(255, 255, 255, 0.75);
 
     display: flex;
@@ -118,14 +129,16 @@ h2{
 footer{
     
     
-    Border: solid 4px #886644;
-    box-shadow: 2px 2px 2px  black inset;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    Border: solid 3px #886644;
+    box-shadow: 8px 8px 15px  black inset;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     padding-left:2rem;
     padding-right: 2rem;
     margin-top: 3px;
     margin-bottom: 3px;
+    margin-left: 6rem;
+    margin-right:6rem;
     background-color: rgba(255, 255, 255, 0.75);
 }
 
