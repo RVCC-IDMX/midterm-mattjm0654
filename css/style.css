@@ -120,7 +120,7 @@ main{
     
 }
 
-p::first-line{
+main P:first-of-type::first-line{
     font-size: x-large;
 }
 
@@ -233,7 +233,7 @@ footer{
 }
 
 /*ipad mini media query*/
-
+/* px size 768 or 786*/
 
 @media screen and (min-width: 768px ) {
 
@@ -267,7 +267,7 @@ footer{
 
     h1 {
 
-        size-adjust: auto;
+       font-size-adjust: auto;
     }
     
     aside {
@@ -326,28 +326,72 @@ footer{
 * 
 
 
+    body { 
+
+        
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-areas: 
     
+    "header  header"
+    "nav     nav"
+    "main    aside"
+    "footer  footer"
+    ;
+
+    max-width: 1200px;
+
+    }
   
+    header {
+
+        grid-area: header;
+    }
+
+   
+
+    nav {
+
+        grid-area: nav;
+
+    }
+
+    main {
+
+        grid-area: main;
+
+    }
+
     
     aside {
 
-       float: right;
-       width: 25%;
-       display: flex;
-      flex-direction: column;
-        align-items: center;
+      /*grid-area: aside; */
+      display: block;
        
     }
 
-
+    
     footer {
 
-       display:inline-flex;
+        grid-area: footer;
+      /* display: grid;
        flex-direction: row;
-       align-items: center;
-       text-align: center;
+       align-items:center;
+       text-align: center; */
 
     
-    }
+    } 
+
+
 
     } 
+    @media screen and (min-width: 1200px ) {
+
+        body{
+
+            margin: auto;
+            max-width: 1200px;
+        }
+    
+
+    }
